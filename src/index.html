@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn about job openings at Jovian and submit your application now">
     <meta name="keywords" content="data science, software development, jobs">
@@ -23,9 +23,10 @@
 
     <body>
         <div id="navbar">
-           <img  id="logo" alt="Jovian-Logo" src="https://jovian.com/jovian_logo.svg" > 
+           <img id="logo" alt="Jovian Logo" src="https://i.imgur.com/JRA5Q8a.png" height="30">
+           <img  id="logo-with-text"  alt="Jovian Logo with Text" src="https://jovian.com/jovian_logo.svg" height="30" > 
         </div>
-        <img  id="Banner" src="Banner.jpg" alt="Banner" height="240">
+        <img  id="Banner" src="Banner.jpg" alt="Banner">
     <h1>
          About Jovian
     </h1>
@@ -52,45 +53,73 @@
     </div>
     <h2>Job Opportunities</h2>
     <div id="jobs">
-        <table id="jobs-table">
-            <tr class="jobs-header-row">
-                <th rowspan="2">Job Title</th>
-                <th colspan="2">Location</th>
-                <th rowspan="2">Salary</th>
-                <th rowspan="2">Posted On</th>
-            </tr>
-            <tr class="jobs-header-row">
-                <th>City</th>
-                <th>Country</th>
-            </tr>
-            <tr class="jobs-data-row">
-                <td>Frontend Developer</td>
-                <td>Bengaluru</td>
-                <td>India</td>
-                <td>Rs.12,00,000</td>
+        <div id="jobs-list">
+            <div class="job">
+                <div class="job-title">Frontend Developer</div>
+                <div class="job-detail">Bengaluru, India</div>
+                <div class="job-detail">₹ 12,00,000</div>
+                <div class="job-detail">Posted Mar 3, 2023</div>
+            </div >
+            <div class="job">
+                <div class="job-title">Full Stack Developer</div>
+                <div class="job-detail">New Delhi, India</div>
+                <div class="job-detail">₹ 15,00,000</div>
+                <div class="job-detail">Posted Feb 1, 2023</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Data Scientist</div>
+                <div class="job-detail">San Francisco, USA</div>
+                <div class="job-detail">$175,000</div>
+                <div class="job-detail">Posted Dec 22, 2022</div>
+            </div>
+            <div class="job">
+                <div class="job-title">ML Engineer</div>
+                <div class="job-detail">Remote</div>
+                <div class="job-detail">$80,000</div>
+                <div class="job-detail">Posted Sep 19, 2022</div>
+            </div>
+        </div>
+        
+            <table id="jobs-table">
+                <tr class="jobs-header-row">
+                    <th rowspan="2">Job Title</th>
+                    <th colspan="2">Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted On</th>
+                </tr>
+                <tr class="jobs-header-row">
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Frontend Developer</td>
+                    <td>Bengaluru</td>
+                    <td>India</td>
+                    <td>Rs.12,00,000</td>
                 <td>Mar 3, 2023</td>
-            </tr>
-            <tr class="jobs-data-row">
-                <td>Full Stack Developer</td>
-                <td>New Delhi</td>
-                <td>India</td>
-                <td>Rs.15,00,000</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Full Stack Developer</td>
+                    <td>New Delhi</td>
+                    <td>India</td>
+                    <td>Rs.15,00,000</td>
                 <td>Feb 1, 2023</td>
-            </tr>
-            <tr class="jobs-data-row">
-                <td>Data Scientist</td>
-                <td>San Francisco</td>
-                <td>USA</td>
-                <td>Rs.175,000</td>
-                <td>Dec 22, 2022</td>
-            </tr>
-            <tr class="jobs-data-row">
-                <td>ML Engineer</td>
-                <td colspan="2">Remote</td>
-                <td>Rs.80,000</td>
-                <td>Sep 19, 2022</td>
-            </tr>
-        </table>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Data Scientist</td>
+                    <td>San Francisco</td>
+                    <td>USA</td>
+                    <td>Rs.175,000</td>
+                    <td>Dec 22, 2022</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>ML Engineer</td>
+                    <td colspan="2">Remote</td>
+                    <td>Rs.80,000</td>
+                    <td>Sep 19, 2022</td>
+                </tr>
+            </table>
+    </div>
 </div>
 
 <div id="application">
